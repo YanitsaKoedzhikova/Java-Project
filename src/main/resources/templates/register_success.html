@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<style>
+h1	{			
+	text-align: center;
+	font-family:Gabriola;
+	font-size: 50px;	}
+p  {
+	text-indent: 50px;
+	font-family:Gabriola;
+	text-align: center;
+	font-size: 25px;	}
+body { background-color: #eee3c4; }
+</style>
+    <meta charset="ISO-8859-1">
+    <title>Registration Success</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container text-center" style="margin-top:5%">
+        <h1>You have been create your registration successfully!</h1>
+        	<h1>Log in: </h1>
+        	<br>
+        	<a class="btn btn-dark"  th:href="@{/login}">LogIn</a>
+    </div>    
+    <br>
+</body>
+</html>
